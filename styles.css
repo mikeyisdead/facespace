@@ -1,6 +1,6 @@
 body {
   font-family: "Verdana", sans-serif;
-  color: #4a4a4a;
+  color: black;
   width: 100%;
   margin: 0;
   font-size: 14px;
@@ -9,13 +9,19 @@ body {
 .main-container {
   max-width: 1280px;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .top-bar {
   background-color: rgb(1, 56, 150);
   color: white;
   padding: 10px;
-  height: 60px;
+}
+
+.search-bar {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 24px 0;
 }
 
 .help-signout {
@@ -25,7 +31,7 @@ body {
 .header-bar {
   width: 100%;
   color: black;
-  background-color: rgb(89, 154, 199);
+  background-color: rgb(106, 156, 204);
   text-align: center;
   padding: 10px 0;
 }
@@ -44,12 +50,14 @@ body {
   margin-top: 16px;
   width: 42%;
   float: left;
+  padding-bottom: 24px;
 }
 
 .right-container {
   margin-top: 16px;
   width: 55%;
   float: right;
+  padding-bottom: 24px;
 }
 
 /** Left side of the page **/
@@ -73,7 +81,7 @@ body {
   display: inline-block;
   vertical-align: top;
   padding: 10px;
-  color: #4a4a4a;
+  color: black;
   width: 35%;
 }
 
@@ -91,7 +99,7 @@ body {
 }
 
 .profile-photo-footer {
-  margin-top: 16px;
+  margin-top: 5px;
   padding-left: 64px;
   width: 100%;
 }
@@ -101,12 +109,12 @@ body {
   text-decoration: none;
 }
 
-.contact-info {
+.info-container {
   border: 2px solid rgb(106, 156, 204);
   margin-top: 16px;
 }
 
-.contact-header {
+.section-header {
   background-color: rgb(106, 156, 204);
   padding: 6px 12px;
   color: white;
@@ -116,7 +124,7 @@ body {
 .contact-block {
   display: inline-block;
   width: 45%;
-  height: 40px;
+  height: 30px;
   padding: 8px 12px;
 }
 
@@ -129,12 +137,46 @@ body {
 
 .contact-block span {
   display: inline-block;
-  padding-top: 10px;
+  padding-top: 5px;
   color: rgb(1, 56, 150);
 }
 
 .song-block {
   margin-top: 16px;
+}
+
+.info-table {
+  width: 100%;
+}
+
+.topic {
+  padding: 5px;
+  background-color: rgb(178, 209, 237);
+  vertical-align: top;
+  color: rgb(83, 144, 201);
+  font-weight: bold;
+  width: 40%;
+}
+
+.response {
+  padding: 5px;
+  background-color: rgb(213, 232, 252);
+  color: black;
+  width: 60%;
+}
+
+.school-co {
+  padding: 5px;
+  background-color: rgb(178, 209, 237);
+  width: 75%;
+  vertical-align: top;
+}
+
+.date-range {
+  padding: 5px;
+  background-color: rgb(213, 232, 252);
+  width: 25%;
+  vertical-align: top;
 }
 
 /** Right side of the page **/
@@ -144,7 +186,7 @@ body {
   padding: 24px;
   text-align: center;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .blog-section {
@@ -166,7 +208,7 @@ body {
   margin-top: 16px;
 }
 
-.blurb-header {
+.orange-header {
   color: rgb(255, 153, 69);
   font-weight: bold;
   background-color: rgb(249, 214, 185);
@@ -175,6 +217,7 @@ body {
 
 .about-me {
   margin-top: 16px;
+  padding-left: 5px;
   color: rgb(255, 153, 69);
   font-weight: bold;
 }
@@ -182,4 +225,131 @@ body {
 .about-me-response {
   color: #4a4a4a;
   font-weight: normal;
+}
+
+.friend-space {
+  margin-top: 24px;
+}
+
+.friend-count {
+  padding: 5px;
+  font-weight: bold;
+}
+
+.top-friends {
+  margin-top: 16px;
+}
+
+.friends-table {
+  width: 100%;
+}
+
+.friend-cell {
+  width: 25%;
+  vertical-align: top;
+}
+
+.friend-name {
+  color: rgb(1, 56, 150);
+  font-weight: bold;
+  text-align: center;
+  vertical-align: top;
+  padding: 10px 0 5px 0;
+}
+
+.top-img {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.top-friend-img {
+  width: 100%;
+  border: 2px solid rgb(1, 56, 150);
+}
+
+.count {
+  color: rgb(180, 0, 0);
+  font-weight: normal;
+}
+
+.view-all-friends {
+  text-align: right;
+}
+
+.view-all-friends a {
+  color: rgb(180, 0, 0);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.friend-comments {
+  margin-top: 24px;
+}
+
+.comment-count {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.comment-count a {
+  color: rgb(1, 56, 150);
+  text-decoration: none;
+}
+
+.comment {
+  width: 100%;
+}
+
+.comment-user {
+  background-color: rgb(255, 153, 69);
+  width: 25%;
+  padding: 5px;
+}
+
+.comment-user-name {
+  text-align: center;
+  color: rgb(1, 56, 150);
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.comment-img {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.comment-user-img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.comment-body {
+  background-color: rgb(249, 214, 185);
+  width: 75%;
+  vertical-align: top;
+}
+
+.comment-date {
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.comment-text {
+  padding: 10px;
+}
+
+.add-comment {
+  text-align: right;
+  color: rgb(1, 56, 150);
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.footer {
+  background-color: rgb(228, 228, 228);
+  padding: 10px;
+  text-align: center;
+  vertical-align: bottom;
 }
