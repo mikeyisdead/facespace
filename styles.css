@@ -1,0 +1,185 @@
+body {
+  font-family: "Verdana", sans-serif;
+  color: #4a4a4a;
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+}
+
+.main-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.top-bar {
+  background-color: rgb(1, 56, 150);
+  color: white;
+  padding: 10px;
+  height: 60px;
+}
+
+.help-signout {
+  float: right;
+}
+
+.header-bar {
+  width: 100%;
+  color: black;
+  background-color: rgb(89, 154, 199);
+  text-align: center;
+  padding: 10px 0;
+}
+
+.header-bar a {
+  color: white !important;
+  padding: 0 6px;
+  text-decoration: none;
+}
+
+.header-bar a:hover {
+  font-weight: bold;
+}
+
+.left-container {
+  margin-top: 16px;
+  width: 42%;
+  float: left;
+}
+
+.right-container {
+  margin-top: 16px;
+  width: 55%;
+  float: right;
+}
+
+/** Left side of the page **/
+
+.my-name {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+}
+
+.profile-photo-container {
+  display: inline-block;
+  width: 300px;
+}
+
+.profile-photo {
+  object-fit: cover;
+}
+
+.basic-info {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  color: #4a4a4a;
+  width: 35%;
+}
+
+.online-now {
+  margin-top: 16px;
+  width: 120px;
+}
+
+.online-now img {
+  width: 100px;
+}
+
+.last-login {
+  margin-top: 16px;
+}
+
+.profile-photo-footer {
+  margin-top: 16px;
+  padding-left: 64px;
+  width: 100%;
+}
+
+.profile-photo-footer a {
+  color: rgb(1, 56, 150);
+  text-decoration: none;
+}
+
+.contact-info {
+  border: 2px solid rgb(106, 156, 204);
+  margin-top: 16px;
+}
+
+.contact-header {
+  background-color: rgb(106, 156, 204);
+  padding: 6px 12px;
+  color: white;
+  font-weight: bold;
+}
+
+.contact-block {
+  display: inline-block;
+  width: 45%;
+  height: 40px;
+  padding: 8px 12px;
+}
+
+.contact-block img {
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 6px;
+  color: grey;
+}
+
+.contact-block span {
+  display: inline-block;
+  padding-top: 10px;
+  color: rgb(1, 56, 150);
+}
+
+.song-block {
+  margin-top: 16px;
+}
+
+/** Right side of the page **/
+
+.extended-network {
+  border: 2px solid black;
+  padding: 24px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.blog-section {
+  margin-top: 16px;
+  padding: 0 5px;
+  font-weight: 600;
+}
+
+.blog-section a {
+  color: rgb(1, 56, 150);
+  text-decoration: none;
+}
+
+.blog-text {
+  margin-top: 16px;
+}
+
+.my-blurbs {
+  margin-top: 16px;
+}
+
+.blurb-header {
+  color: rgb(255, 153, 69);
+  font-weight: bold;
+  background-color: rgb(249, 214, 185);
+  padding: 5px 10px;
+}
+
+.about-me {
+  margin-top: 16px;
+  color: rgb(255, 153, 69);
+  font-weight: bold;
+}
+
+.about-me-response {
+  color: #4a4a4a;
+  font-weight: normal;
+}
